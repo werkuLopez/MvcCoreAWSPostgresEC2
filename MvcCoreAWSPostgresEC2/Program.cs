@@ -8,9 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 string conn =
-    builder.Configuration.GetConnectionString("Postgres");
+    builder.Configuration.GetConnectionString("MySql");
 builder.Services.AddTransient<DepartamentoRepository>();
-builder.Services.AddDbContext<DepartamentoContext>(options=> options.UseNpgsql(conn));
+builder.Services.AddDbContext<DepartamentoContext>(options=> options.UseMySql(conn, ServerVersion.AutoDetect(conn)));
 
 var app = builder.Build();
 
