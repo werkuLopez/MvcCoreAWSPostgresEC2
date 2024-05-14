@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcCoreAWSPostgresEC2", "MvcCoreAWSPostgresEC2\MvcCoreAWSPostgresEC2.csproj", "{7CA64E6D-DFE7-4A4D-B546-65D9CC419531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CA64E6D-DFE7-4A4D-B546-65D9CC419531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA64E6D-DFE7-4A4D-B546-65D9CC419531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA64E6D-DFE7-4A4D-B546-65D9CC419531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA64E6D-DFE7-4A4D-B546-65D9CC419531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAE819B5-DAA9-4A8A-9BF6-8F8EE4884724}
+	EndGlobalSection
+EndGlobal
